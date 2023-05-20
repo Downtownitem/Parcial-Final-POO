@@ -1,3 +1,9 @@
+from turno import Turno
+from centro_acopio import CentroAcopio
+from typing import List
+from datetime import date
+
+
 class SistemaInformacion:
     def __init__(self):
         self.turnos: List[Turno] = []
